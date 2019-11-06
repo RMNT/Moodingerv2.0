@@ -1,0 +1,70 @@
+body {
+    background-color: #d6d6d6;
+}
+a {
+    color: #2f4f4f;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.navButton {
+    color: #fff;
+    background-color: #2f4f4f;
+    border: none;
+    height: 40px;
+    margin-right: 10px;
+    padding: 0px 15px 0px 15px
+}
+.navButton:hover {
+    background-color: #5b5959
+}
+.navButton:focus {
+    outline: 0
+}
+
+#loginForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#signUp {
+    margin-left: 10px
+}
+.loginButton {
+    margin-left: 0px
+}
+
+#afterInput {
+    margin-top: 5px
+}
+
+#brand {
+    color: #2f4f4f;
+    margin-bottom: 7px
+}
+
+input {
+    margin-bottom: 3px
+}
+
+#visiblePassword {
+    margin-right: 5px
+}
+
+#facerec {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
+#face {
+    color: #ff0000;
+}
