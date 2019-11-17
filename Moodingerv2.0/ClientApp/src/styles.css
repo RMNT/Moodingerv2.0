@@ -68,3 +68,23 @@ input {
 #face {
     color: #ff0000;
 }
+
+#face_video {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#face_video_canvas {
+    display: block;
+    width: 340px;
+    height: 340px;
+    /*background-color: #1b6ec2;*/
+}
+
+#affdex_elements {
+    width: 680px;
+    height: 480px;
+    /*background-color: #ff0000;*/
+}
