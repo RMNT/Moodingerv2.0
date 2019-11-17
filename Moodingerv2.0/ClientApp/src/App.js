@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Login from './components/Login';
 import Register from './components/Register';
 import FaceRecognition from './components/facerecognition';
+import elementsLoggedOut from './components/NavElements';
 import './styles.css';
 
 let elements = [{
@@ -21,7 +22,6 @@ let elements = [{
     id: 3, title: 'Log out',
     link: '/'
 }];
-
 
 export default class App extends Component {
     render() {
@@ -40,4 +40,4 @@ export default class App extends Component {
     }
 }
 
-ReactDOM.render(<App elements={elements}/>, document.getElementById('root'));
+ReactDOM.render(<App elements={elements} />, document.getElementById('root'));
